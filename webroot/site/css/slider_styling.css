@@ -1,0 +1,50 @@
+.slider{
+	background:#f7f7f7;
+} 
+.tparrows {
+	display:none;
+ }
+.tp-caption.heading_1{
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	color:#051959;
+	text-shadow:2px 2px 5px rgba(255,255,255,.75);
+	font-size:48px;
+	text-transform:uppercase;
+}
+.tp-caption.heading_2{
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	color:#051959;
+	text-shadow:2px 2px 5px rgba(255,255,255,.75);
+	font-size:30px;
+	text-transform:uppercase;
+}
+.tp-caption.heading_3{
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	color:#051959;
+	text-shadow:2px 2px 5px rgba(255,255,255,.75);
+	font-size:38px; 
+}
+.tp-caption.heading_4_red{
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	color:#ed1846;
+	text-shadow:2px 2px 5px rgba(255,255,255,.75);
+	font-size:24px; 
+	text-transform:uppercase;
+}
+.tp-caption.icon_text{
+	color:#FFF;
+	font-family: 'Oxygen', sans-serif;
+	font-weight:300;
+	text-align:center;
+}
+.tp-caption.icon_text_2_red{
+	color:#ed1846;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	text-align:center;
+	font-size:21px;
+} 

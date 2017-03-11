@@ -1,0 +1,266 @@
+h1,h2,h3,h4,h5,h6,p,ul,li,ol{ padding:0;margin:0; }
+ol,ul{list-style:none; }
+ 
+
+body{ font-size:14px; font-family: font-family: 'Open Sans', sans-serif; font-weight:300; color:#252525; font-weight:400;}
+
+a{ text-decoration:none !important; color:inherit;}
+
+p{font-family: 'Open Sans', sans-serif;}
+h1{ font-size:30px; color:#11587c;font-family: 'Oswald', sans-serif;font-weight:300;}
+h1.dark{color:#126b98;}
+h1.h1-footer{ color:#e7ecf2;}
+h2{ font-size:22px;font-family: 'Oswald', sans-serif; padding:0; color:#126b98;}
+
+
+
+
+
+
+p{ font-size:14px; color:#252525; line-height:21px;letter-spacing: .3px;line-height: 24px;}
+ul.list-new{ padding:14px 0 0 2px;}
+ul.list-new li{ font-size:14px; line-height:34px; padding-left:27px; list-style:none;letter-spacing: .3px;}
+
+
+
+
+.container{  }
+.header{ padding:18px 0 22px 0; margin-bottom:0px;}
+.num-mb{ float:right; padding:0px 0 0 16px; margin-top:8px; font-size:15px; color:#176d9b;}
+
+
+.dot-nav{ background: none; border:0;border-radius:0; line-height:54px;}
+.navbar-nav li.active a ,.navbar-nav li a:hover{ color: #ed1846 !important; }
+.dropdown-menu{ width:175px;  border:0;border-radius:0; padding:0;}
+.dropdown-menu li{ padding:0px 0 0px 0; min-height:40px; border-bottom:1px solid #e6e6e6;}
+.navbar-nav li a{ padding:15px 55px 15px 50px ; font-family: 'Open Sans', sans-serif; font-size:14px;}
+.navbar-nav li ul.dropdown-menu li{ padding:0 !important;}
+.navbar-nav li ul.dropdown-menu li a{padding:0 0 0 22px !important; line-height:40px; border-left:1px solid #fff;}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ed1846;
+    background: none;
+}
+.navbar-nav li ul.dropdown-menu li a:hover{}
+
+
+.dropdown-menu li.botm-brdr{ border-bottom:1px solid #fff !important;}
+
+.navbar-nav li.hom-icon a{ width:31px; height:25px; margin:14px 35px 0 32px; padding:0 !important;}
+.navbar-nav li.hom-icon a{ margin-left:0 ;}
+.navbar-collapse{ padding-left:0;}
+.navbar-nav  a:hover{ }
+
+
+.navbar-default .navbar-nav > li.hom-icon > a:hover,
+
+
+
+.slide-banner{ background:#f7f7f7; margin-bottom:48px; }
+
+
+
+.cont-top{ padding-bottom:50px;}
+.part-three{ float:left;}
+.part-three h1{  height:50px;  margin-bottom:21px;}
+.part-three h1 span{ display:inline-block; margin-right:7px;}
+.part-three p{text-align:left;}
+
+.cont-bottom{ padding-bottom:50px;}
+
+
+.contentBottom{ background:#eee; border-top:1px solid #dcdcdc; min-height:274px;}
+.clints img{ display:inline-block; border-bottom:1px solid #cfcfcf;}
+.ourClients h1.dark{ margin-top:27px; width:100%; margin-bottom:21px; height:auto;}
+.ourClients h1.dark span{ display:table; border-bottom:3px solid #126b98; padding-bottom:18px;}
+.ourClients h1.dark img{ display:inline-block; margin-right:11px; margin-top:-5px;} 
+.no-margin-r{ margin-right:0;} 
+.clients_logos img{ display:block; width:100%; border-bottom:1px solid #cfcfcf;margin-bottom:28px;min-height: 57px;}
+
+/*footer*/
+.footer-top{ background:#34495e; padding:30px 0 0 0; }
+
+
+
+.footer-top h1.h1-footer{ padding:0; margin:0;  margin-bottom:10px; }
+
+.footer-top h1.h1-footer span{ display:table; border-bottom:3px solid #5d7287;padding-bottom:15px;}
+.footer-top h1.h1-footer.h1-footer2{ }
+.footer-top h1.h1-footer img{ display:inline-block; margin-top:-10px; margin-right:11px;}
+.footer-top ul{ padding-bottom:40px;}
+.footer-top ul li{ line-height:25px;  padding-left:16px;}
+.footer-top ul li a{ font-size:14px; color:#d9e2ec;}
+.footer-top ul li a:hover{color:#eee;}
+
+
+.partForm{}
+.partForm input.same-input{ width:100%; height:32px; line-height:32px; font-size:14px; color:#5d768f; background:#d1dde9; padding:0 10px; border:none; /*margin-bottom:11px;*/}
+.partForm textarea{ width:100%; height:75px; line-height:32px; font-size:14px; color:#5d768f; background:#d1dde9; padding:0 10px; border:none; /*margin-bottom:11px;*/ resize:none;}
+.submit_button{width:100%;height:32px;background:#ed1846;border:0px;color:#FFF;}
+.xxxx{ padding-right:10px;}
+.yyyyy{ padding-left:10px;}
+
+
+.footer-bottom{ background:#1c2d3d; min-height:44px;padding:11px 0;}
+.footer-bottom p{ padding-top:9px; color:#718fab; font-size:12px;}
+.social-part{ float:right; padding-right:0;}
+.social-part a{ display:inline-block; margin-left:10px; float:right;}
+.left-space0{ padding-left:0;}
+
+.small-slid{ padding-top:30px;}
+
+.small-slid h1.cloud span{ border-bottom:3px solid #126b98;display:inline-table; padding-bottom:18px;}
+.small-slid h1.cloud span i{font-style:normal;}
+.small-slid h1.cloud img{ display:inline-block; margin-top:-7px;}
+.small-slid p{ font-size:14px; color:#252525; line-height:25px; padding-top:25px;}
+.small-slid  em{ text-align:right; display:block; padding-right:5px;}
+.small-slid h1.cloud img{margin-right:6px;}
+.carousel-indicators{bottom:0;}
+
+.cloud_app_dev{padding-left:30px;
+               background-repeat:no-repeat;
+               background-position:left top;
+}
+
+/* Code by Sarower*/
+.carousel-indicators li{
+    background:#dcdcdc;
+    border:0px;
+}
+.carousel-indicators .active{
+    background:#126b98;
+    border:0px;
+    width:10px;
+    height:10px;
+}
+#carousel-example-generic{
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    background-size:100% auto;
+} 
+
+/*contact page css*/
+
+.contact-top{ padding:27px 0 0 0;}
+.nav-inner{ font-style:italic; font-size:14px; color:#a7a7a7;  border-bottom:1px solid #e6e6e6; padding-bottom:10px; margin-bottom:28px; }
+.nav-inner a{ color:#565555; }
+.contact-top h1.cont-h1us{ padding:0 0 16px 0;}
+
+.shado-bg{height:7px;}
+
+.roww2{ margin:0 15px;}
+
+.contact_content{
+    padding-bottom:40px;
+}
+.contact-part h2{ border-bottom:1px solid #e0e0e0; padding-bottom:7px; font-weight:300; margin-bottom:13px;}
+.contact-part h2 strong{ font-weight:300; font-size:14px; color:#898989;  float:right; line-height:32px;}
+
+
+
+.contact-part p{ line-height:20px; color:#565555; sans-serif; font-weight:300; }
+.button-dot{}
+.button-dot a{ margin:15px 20px 0px 0; height:33px;  padding:0 15px 0 39px; line-height:33px;float:left; color:#fff;}
+
+.contact-post{ padding-bottom:24px;}
+.contact-post span{ display:block; color:#898989; line-height:21px; }
+.contact-post span small{ color:#414141;}
+.contact-post span.24support{ line-height:25px;}
+.ofice-branch h6{ font-size:16px ; color:#414141; padding:24px 0 11px 0;}
+.ofice-branch span{ padding-left:23px;}
+
+
+
+
+/*===============Code By Sarower==========*/
+.right_10{ 
+    padding-right:10px;
+}
+.left_10{ 
+    padding-left:10px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width:100%;
+    border-radius:0;
+    border:1px solid #e6e6e6;
+    background:#f3f3f3;
+}
+.bootstrap-select .btn-default{
+    background:transparent;
+    border:0px;
+    border-radius:0px;
+    min-height:32px;
+    color:#a4abb2;
+}
+.bootstrap-select  .dropdown-menu li{
+    min-height:10px;
+}
+.bootstrap-select  .dropdown-menu li a{
+    padding:7px 15px;
+    transition:all .5s;
+}
+.contact_form  input[type="text"], .contact_form  input[type="email"], .contact_form textarea{
+    width:100%;
+    border:1px solid #e6e6e6;
+    background:#f3f3f3;
+    min-height:32px;
+    padding:0px 10px;
+    /*margin-bottom:20px;*/
+    color:#a4abb2;
+}
+.contact_form  input[type="text"]:focus, .contact_form  input[type="email"]:focus, .contact_form textarea:focus{
+    background:#FFF;
+    border:1px solid #e6e6e6;
+}
+.contact_form  input[type="submit"]{
+    width:100%;
+    height:32px;
+    border:0px;
+    text-align:center;
+    height:32px;
+    background:#ed1846;
+    color:#FFF;
+    transition:all .5s;
+    margin-bottom:37px;
+}
+.contact_form  input[type="submit"]:hover{
+    background:#ca1139;
+}
+.contact_form  .g-recaptcha{
+    margin-bottom:5px;
+}
+
+<!--Validation-->
+.error {
+    margin-bottom: 0px;
+}
+
+#contact_page_form .row {
+    margin-bottom: 20px;
+}
+
+#contact_page_form input.error, #contact_page_form textarea.error {
+    border: 2px solid red !important;
+}
+
+#contact_page_form div.error {
+    color: red;
+}
+div.commonerror div.error {
+    color: red;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#footer_page_form .row {
+    margin-bottom:11px;
+}
+
+#footer_page_form input.error, #footer_page_form textarea.error {
+    border: 2px solid red !important;
+}
+
+#footer_page_form div.error {
+    color: red;
+}
