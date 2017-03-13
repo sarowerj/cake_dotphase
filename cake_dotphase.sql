@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 08, 2017 at 07:55 AM
+-- Generation Time: Mar 13, 2017 at 11:22 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -51,6 +51,29 @@ INSERT INTO `medias` (`id`, `name`, `new_name`, `type`, `size`, `directory`, `cr
 (17, 'payment_details_view_v5.jpg', '4cdc89182a78850fddcb32d9907e3f80.jpg', 'image/jpeg', 160167, 'directory', '2017-03-07 21:45:53', '2017-03-07 21:45:53', 1),
 (18, 'total_donation.jpg', '8288518f90ea547cba795e32e6ff964a.jpg', 'image/jpeg', 173096, 'directory', '2017-03-07 21:46:31', '2017-03-07 21:46:31', 1),
 (19, 'upload_confirmation.jpg', '9539190db0da2849dd48e7309d08d80e.jpg', 'image/jpeg', 161948, 'directory', '2017-03-07 22:40:02', '2017-03-07 22:40:02', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `options`
+--
+
+CREATE TABLE `options` (
+  `id` int(9) NOT NULL,
+  `option_name` varchar(150) NOT NULL,
+  `option_value` text NOT NULL,
+  `created_by` int(9) NOT NULL,
+  `created` datetime NOT NULL,
+  `updated` datetime NOT NULL,
+  `status` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `options`
+--
+
+INSERT INTO `options` (`id`, `option_name`, `option_value`, `created_by`, `created`, `updated`, `status`) VALUES
+(4, 'email', 'sarowerj@gmail.com', 1, '2017-03-13 10:01:19', '0000-00-00 00:00:00', 1);
 
 -- --------------------------------------------------------
 
@@ -126,6 +149,12 @@ ALTER TABLE `medias`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `options`
+--
+ALTER TABLE `options`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `posts`
 --
 ALTER TABLE `posts`
@@ -146,6 +175,11 @@ ALTER TABLE `users`
 --
 ALTER TABLE `medias`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+--
+-- AUTO_INCREMENT for table `options`
+--
+ALTER TABLE `options`
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `posts`
 --
